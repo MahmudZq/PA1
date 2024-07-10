@@ -1,0 +1,177 @@
+/* Fonts */
+
+/* Use a value from 100 to 900 */
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.azeret-mono-bold {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+.azeret-mono-semi-bold {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+}
+
+/* Header section Start*/
+
+/* Nav Section Start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 35px auto;
+    height: 10%;
+}
+nav h3{
+    font-size: 28px;
+}
+.btn{
+ 
+    width: 248px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 18px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+  
+}
+.btn:hover{
+    background-color: #d5fc72;
+    color: #000000;
+    border: 2px solid #d5fc72;
+    transform: scale(1.1);
+ 
+  
+}
+.btn a{
+   color: #000000;
+   text-decoration: none;
+}
+.btn a:hover{
+   color: #000000;
+}
+
+/* Nav Section End */
+
+/* Hero-Section Start */
+
+.hero-bg{
+width: 100%;
+height: 652px;
+left: 0;
+right: 0;
+background: url(../assets/Hero-bg.png);
+}
+.profile-pic{
+display: block;
+padding-top: 26px;
+margin: auto;
+}
+@media screen and (min-width: 1450px){
+.hero-heading{
+    width: 60%;
+    font-size: 48px;
+    text-align: center;
+    color: #0D1321;
+    margin: 32px auto;
+}
+}
+@media screen and (max-width: 1450px){
+.hero-heading{
+    width: 70%;
+    font-size: 48px;
+    text-align: center;
+    color: #0D1321;
+    margin: 32px auto;
+}
+}
+@media screen and (min-width: 1450px){
+.hero-description{
+    width: 48%;
+    font-size: 16px;
+    text-align: center;
+    color: #0D1321;
+    margin: 0px auto;
+    padding: 0px 73px;
+}
+}
+@media screen and (max-width: 1450px){
+.hero-description{
+    width: 65%;
+    font-size: 16px;
+    text-align: center;
+    color: #0D1321;
+    margin: 0px auto;
+    padding: 0px 73px;
+}
+}
+@media screen and (min-width: 1450px){
+.hero-btn{
+ 
+    width: 320px;
+    height: 66px;
+    font-size: 28px;
+    background-color: #0D1321;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 32px auto;
+    margin-bottom: 28px;
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 0px;
+    padding: auto;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}  
+}
+@media screen and (max-width: 1450px){
+.hero-btn{
+ 
+    width: 208px;
+    height: 54px;
+    font-size: 20px;
+    background-color: #0D1321;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 38px auto;
+    text-align: center;
+    padding: 21px 24px;
+    padding-bottom: 0px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;   
+}  
+}
+.hero-btn:hover{
+    background-color: #790bb0;
+    color: #ffffff;
+    border: 2px solid #790bb0;
+    transform: scale(1.1);
+}
+.hero-bg a{
+   color: #ffffff;
+   text-decoration: none;
+}
+
+
+
+/* Header section End*/
+
