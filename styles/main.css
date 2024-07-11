@@ -1,4 +1,4 @@
-/* Fonts */
+/* Fonts Start */
 
 /* Use a value from 100 to 900 */
 
@@ -20,6 +20,8 @@
   font-weight: 600;
   font-style: bold;
 }
+
+/* Fonts End */
 
 /* Header section Start*/
 
@@ -60,11 +62,11 @@ nav h3{
  
   
 }
-.btn a{
+nav a{
    color: #000000;
    text-decoration: none;
 }
-.btn a:hover{
+nav a:hover{
    color: #000000;
 }
 
@@ -189,7 +191,7 @@ margin-bottom: 0px;
 .main-description{
     padding-top: 24px;
     padding-bottom: 48px;
-    width: 852px;
+    width: 920px;
     margin: auto;
     font-size: 16px;
     text-align: center;
@@ -197,7 +199,7 @@ margin-bottom: 0px;
 }
 
 .container{
-    width: 960px;
+    width: 1120px;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -273,7 +275,7 @@ margin-bottom: 0px;
 }
 .inspiration-description{
     padding-top: 24px;
-    width: 1100px;
+    width: 920px;
     margin: auto;
     font-size: 16px;
     text-align: center;
@@ -281,8 +283,8 @@ margin-bottom: 0px;
 }
 .video-card{
     display: flex;
-    width: 1110px;
-    height: 582px;
+    width: 1130px;
+    height: 602px;
     border-radius: 16px;
     border: 1px solid #0D1321;
     margin: auto;
@@ -300,21 +302,157 @@ margin-bottom: 0px;
 /* Inspiration Section End */
 
 /* Target Section Start */
+.target-title{
+
+font-size: 32px;
+text-align: center;
+margin-bottom: 0px;
+}
+.target-description{
+    padding-top: 24px;
+    width: 1100px;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0.7;
+}
+.card-group{
+    margin-top: 48px;
+    margin-bottom: 110px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.card{
+    border-radius: 16px;
+    width: 280px;
+    height: 260px;
+    padding: 40px;
+    transition: all 0.3s ease-in-out; 
+}
+.card:hover{
+    transform: scale(1.1); 
+}
+.card-color-1{
+background-color:rgba(255, 76, 30, 0.05);
+}
+.card-color-2{
+background-color:rgba(0, 76, 232, 0.05);
+}
+.card-color-3{
+background-color:rgba(255, 223, 0, 0.05);
+}
+
+.card-title{
+    font-size: 24px;
+    padding-top:24px ;
+    
+}
+.card-description{
+   font-size: 16px;
 
 
+}
+.card-link{
+   padding-top: 24px;
+   font-size: 16px; 
+   font-weight: 700;
+   cursor: pointer;
+}
+.card-link a{
+    color:#000000;
+
+}
 /* Target Section End */
 
+
+/* Next Target Section Start */
+
+.next-target-title{
+
+font-size: 32px;
+text-align: center;
+margin-bottom: 0px;
+}
+.next-target-description{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 850px;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.skill-group{
+    width:1100px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill{
+    width: 1020;
+    height: 220;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 16px;
+    margin-top:24px;
+    padding: 40px;
+    transition: all 0.3s ease-in-out; 
+}
+.skill:hover{
+    transform: scale(1.1); 
+}
+.skill-img{
+    display: flex;
+    padding-right: 24px;
+}
+.skill-img img{
+    margin: auto;
+    justify-content: center;
+}
+.skill-detail{
+    display: flex;
+    flex-direction: column;
+}
+.skill-detail-title{
+    font-size: 24px;
+    
+    
+}
+.skill-detail-description{
+   font-size: 16px;
+   margin-top: 10px;
+
+}
+.skill-detail-link{
+   width: 150px;
+   height: 20px;
+   padding-top: 20px;
+   font-size: 16px; 
+   font-weight: 700;
+   cursor: pointer;
+}
+.skill-detail-link a{
+    color:#000000;
+
+}
+/* Next Target Section End */
 
 /* Support Section Start */
 .support{
 margin: auto;
 width: 1110px;
 height: 313px;
+position: relative;
 border-radius: 16px;
-background:url(../assets/handshake.jpg);
-background-repeat: round;
-justify-content: center;
-align-items: center;
+border-radius: 16px;
+background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../assets/handshake.jpg);
+background-size: cover;
+background-position: top;
+position: relative;  
 }
 .support-title{
 font-size: 32px;
@@ -416,6 +554,9 @@ footer{
     width: 36px;
     height: 36px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out; 
 }
-
+.contact img:hover{
+    transform: scale(1.2); 
+}
 /* Footer Section End */
